@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Calculadora Raquel</title>
+</head>
+
+<body>
+    <table id="calculator">
+        <tr>
+            <td colspan="4">
+                <input type="text" id="val_number" maxlength="20" value="0" class="box_val" readonly="true">
+            </td>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="Button" id="exponent" value="exp" class="long_buttom functio" onclick="calculate(5)">
+            </td>
+            <td>
+                <input type="Button" id="div" value="/" class="buttom functio" onclick="calculate(4)">
+            </td>
+            <td>
+                <input type="Button" id="multiply" value="x" class="buttom functio" onclick="calculate(3)">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="Button" id="7" value="7" class="buttom" onclick="giveNumber('7')">
+            </td>
+            </td>
+            <td>
+                <input type="Button" id="8" value="8" class="buttom" onclick="giveNumber('8')">
+            </td>
+            <td>
+                <input type="Button" id="9" value="9" class="buttom" onclick="giveNumber('9')">
+            </td>
+            <td>
+                <input type="Button" id="subtract" value="-" class="buttom functio" onclick="calculate(2)">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="Button" id="4" value="4" class="buttom" onclick="giveNumber('4')">
+            </td>
+            <td>
+                <input type="Button" id="5" value="5" class="buttom" onclick="giveNumber('5')">
+            </td>
+            <td>
+                <input type="Button" id="6" value="6" class="buttom" onclick="giveNumber('6')">
+            </td>
+            <td>
+                <input type="Button" id="add" value="+" class="buttom functio" onclick="calculate(1)">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="Button" id="1" value="1" class="buttom" onclick="giveNumber('1')">
+            </td>
+            <td>
+                <input type="Button" id="2" value="2" class="buttom" onclick="giveNumber('2')">
+            </td>
+            <td>
+                <input type="Button" id="3" value="3" class="buttom" onclick="giveNumber('3')">
+            </td>
+            <td>
+                <input type="Button" id="equal" value="=" class="buttom functio" onclick="equal()">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="Button" id="0" value="0" class="long_button" onclick="giveNumber('0')">
+            </td>
+            <td>
+                <input type="Button" id="," value="," class="buttom" onclick="giveComma()">
+            </td>
+            <td>
+                <input type="Button" id="C" value="C" class="buttom functio" onclick="giveC()">
+            </td>
+        </tr>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>

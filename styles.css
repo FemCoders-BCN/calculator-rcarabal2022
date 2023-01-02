@@ -1,0 +1,10 @@
+#calculator {background: pink; border: 2px solid;}
+#calculator td {padding: 3% 0;}
+
+.box_val {background-color: #D6D58E; color: black; border: 2px solid; width: 130px; height: 26px; font-family: Arial, Helvetica; font-size: 20px; line-height: 26px; text-align: right; }
+
+ .buttom {width: 24px; border: 1px solid #000; font-family: Arial; font-size: 12px; cursor: hand; background-color: #fff;}
+
+.long_button { width: 62px; border: 1px solid #000;  font-family: Arial; font-size: 12px; cursor: hand; background-color: #fff;}
+
+.functio {font-weight: bold; color: red;}
